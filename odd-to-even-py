@@ -1,0 +1,12 @@
+odd-to-even-py
+
+import numpy as np
+import time
+a = np.arange(0,10)
+print("odd numbers ")
+ans = (a[a%2!=0])
+print(ans)
+time.sleep(0.5)
+print("subtract 1 from ans")
+a1 = [x - 1 for x in ans]
+print(a1)
